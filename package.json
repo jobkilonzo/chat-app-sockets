@@ -1,0 +1,21 @@
+{
+  "name": "chat-app---sockets",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node seriver.js",
+    "dev": "nodemon seriver.js"
+  },
+  "author": "Job Peter",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
